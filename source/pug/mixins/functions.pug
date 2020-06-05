@@ -27,7 +27,7 @@ mixin pageHeader(tituloTema, srcImagen)
 
                     .d-none.d-lg-block
                     
-                        img(src= srcImagen).img-fluid
+                        img(src= srcImagen, style="max-width: 80%").img-fluid
 
 mixin navTemaItem(numero, titulo, ruta)
     li.list-group-item.nav-tema-item
@@ -44,7 +44,7 @@ mixin navTemaItem(numero, titulo, ruta)
     
     
 mixin creditosFooter(ruta)
-    footer#creditos.footer
+    footer#Creditos.footer
         .container
 
             h1 Créditos               
@@ -79,14 +79,15 @@ mixin creditosFooter(ruta)
                     h3.footer-subtitulo Diseño y desarrollo de recursos educativos digitales
 
                     p.footer-texto
-                        | #[strong Lady Adriana Ariza Luque ]<br/>   
-                        | #[strong Daniel Ricardo Mutis Gomez ]<br/>                  
-                        | #[strong Eulises Orduz Amezquita ]<br/>                       
+                        | #[strong Lady Adriana Ariza Luque ]<br/>
+                        | #[strong Daniel Ricardo Mutis Gomez ]<br/>         
+                        | #[strong Eulises Orduz Amezquita ]<br/>                 
                         | #[strong Nelson Iván Vera Briceño]<br/>
                         | #[strong José Jaime Luis Tang Pinzón]<br/>
                         | #[strong Carlos Julian Ramirez Benitez]<br/>
                         | #[strong Leyson Fabian Castaño Perez]<br/>
-                        | #[strong Luis Gabriel Urueta Alvarez]<br/> 
+                        | #[strong Luis Gabriel Urueta Alvarez]<br/>
+                        | #[strong Jhon Jairo Urueta Alvarez]<br/> 
                         span.text-small Diseño Web & Producción Audiovisual<br/>
 
                     p.footer-texto

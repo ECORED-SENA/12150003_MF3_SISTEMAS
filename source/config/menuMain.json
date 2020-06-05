@@ -43,6 +43,14 @@
     "slug": "registro",
     "title": "4. Registro de datos.",
     "breadcrumb": ["Inicio","Tema 1"],
-    "path": "pages/5-tema.html"  
+    "path": "pages/5-tema.html",
+    "submenu": [
+      {
+        "icon": "fa fa-file-text",
+        "slug": "registro",
+        "title": "4.1 Procesamiento de datos e información.",
+        "anchor": "procesamiento"
+      }
+    ]
   }
 ]
