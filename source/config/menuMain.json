@@ -4,7 +4,7 @@
     "slug": "external",
     "title": "Volver al Inicio",
     "path": "../"
-  },  
+  },
   { 
     "id": 0,
     "icon": "fa fa-play-circle",
@@ -52,5 +52,11 @@
         "anchor": "procesamiento"
       }
     ]
+  },
+  {
+    "icon": "fa fa-question-circle",
+    "slug": "actividad-1",
+    "title": "Actividad didáctica",
+    "path": "pages/actividad-1.html"
   }
 ]
