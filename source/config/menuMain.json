@@ -17,7 +17,7 @@
     "id": 1,
     "icon": "fa fa-file-text",
     "slug": "tipos",
-    "title": "1. Tipos de Informe en las organizaciones.",
+    "title": "1. Tipos de informe en las organizaciones",
     "breadcrumb": ["Inicio","Tema 1"],
     "path": "pages/2-tema.html"  
   },
@@ -25,7 +25,7 @@
     "id": 2,
     "icon": "fa fa-file-text",
     "slug": "estructura",
-    "title": "2. Estructura de un informe.",
+    "title": "2. Estructura de un informe",
     "breadcrumb": ["Inicio","Tema 1"],
     "path": "pages/3-tema.html"  
   },
@@ -33,7 +33,7 @@
     "id": 3,
     "icon": "fa fa-file-text",
     "slug": "definicion",
-    "title": "3. Definición de un informe Técnico.",
+    "title": "3. Definición de un informe técnico",
     "breadcrumb": ["Inicio","Tema 1"],
     "path": "pages/4-tema.html"  
   },
@@ -41,14 +41,14 @@
     "id": 4,
     "icon": "fa fa-file-text",
     "slug": "registro",
-    "title": "4. Registro de datos.",
+    "title": "4. Registro de datos",
     "breadcrumb": ["Inicio","Tema 1"],
     "path": "pages/5-tema.html",
     "submenu": [
       {
         "icon": "fa fa-file-text",
         "slug": "registro",
-        "title": "4.1 Procesamiento de datos e información.",
+        "title": "4.1 Procesamiento de datos e información",
         "anchor": "procesamiento"
       }
     ]
