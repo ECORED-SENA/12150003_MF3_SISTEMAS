@@ -4,137 +4,139 @@ include ../mixins/functions
 
 .container#estructura
 
-    .row-12
+    .header-ecored
 
         h1 2. Estructura de un informe
 
         .brand-line-primary
 
-    .col-12
+    .row
 
-        .card.mb-3
+        .col-12
 
-            .row.no-gutters
+            .card.mb-3
+
+                .row.no-gutters
+                    
+                    .col-md-8
+
+                        .card-body
+
+                            .card-text
+
+                                p La correcta estructura de un informe técnico es fundamental para que pueda ser comprendido con claridad, de esta manera, se garantiza una redacción clara y objetiva; es así, como se deben utilizar frases concretas y concisas sin perder de vista los objetivos del trabajo. La extensión total del informe debería estar entre 3 y 8 páginas, incluyendo figuras y referencias.
+
+                                br
+
+                                p La estructura debe estar compuesta como mínimo de las siguientes partes (Perdomo, 2011):
+
+                                br
+
+                                ul
+
+                                    li Presentación
+                                    li Introducción
+                                    li Desarrollo/Hallazgos/Resultados
+                                    li Conclusiones y recomendaciones
+                                    li Anexos.
+
+                    .col-md-4(style="border-top-right-radius: 6px; border-bottom-right-radius: 6px; background-image: url('assets/images/pages/img6.jpg'); background-size: contain; background-size: cover; background-repeat: no-repeat")
+
+        br
+
+        .col-12
+
+            #accordionExample.accordion
+
+                .card
+                    #headingOne.card-header(style="background-color: #68C3EF")
+                        p(style="margin-top: 1rem")
+                            button.btn.btn-link(type='button', data-toggle='collapse', data-target='#collapseOne', aria-expanded='true', aria-controls='collapseOne')
+                                p(style="color: #FFFFFF; font-size: 20px").mb-0 Presentación
+                    #collapseOne.collapse.show(aria-labelledby='headingOne', data-parent='#accordionExample', style="background-color: #E0F5FF")
+                        .card-body
+
+                            .row
+
+                                p(style="margin-bottom: 15px") La presentación de un informe está constituido por la portada y el índice o tabla de contenido; a continuación, se describen los elementos básicos a considerar en la redacción de estos aspectos:
+
+
+                                ul
+                                    li
+                                        strong Portada: 
+                                        |   es la primera página del informe y permite la identificación del documento, que consta del título del informe, el nombre del autor y/o autores, la fecha en la que se presenta. El título del informe proviene del objetivo general del informe técnico.
+
+                                        p <br>Es el primer contacto del lector con el trabajo que se le ofrece y por ello la portada debe contener en pocas palabras la información necesaria y suficiente para dejar en claro a qué se refiere el texto e interesarlo en la lectura.
+
+                                ul
+                                    li
+                                        strong Índice o tabla de contenido: 
+                                        |   lista los títulos principales y la página en que aparece cada uno de ellos. Enlista los subtítulos debajo de su título principal correspondiente. Lo importante de esta sección radica en que proporciona un esquema del reporte; el lector sabrá inmediatamente dónde buscar lo que le interesa.
+        
+                .card
+                    #headingTwo.card-header(style="background-color: #68C3EF")
+                        p(style="margin-top: 1rem")
+                            button.btn.btn-link.collapsed(type='button', data-toggle='collapse', data-target='#collapseTwo', aria-expanded='false', aria-controls='collapseTwo')
+                                p(style="color: #FFFFFF; font-size: 20px").mb-0 Introducción
+                    #collapseTwo.collapse(aria-labelledby='headingTwo', data-parent='#accordionExample', style="background-color: #E0F5FF")
+                        .card-body
+
+                            .row
+
+                                p En esta parte del informe se presenta brevemente una descripción de lo que se trata el informe respectivo, con el propósito de situar al lector y ofrecer un marco de referencia.
                 
-                .col-md-8
+                .card
+                    #headingThree.card-header(style="background-color: #68C3EF")
+                        p(style="margin-top: 1rem")
+                            button.btn.btn-link.collapsed(type='button', data-toggle='collapse', data-target='#collapseThree', aria-expanded='false', aria-controls='collapseThree')
+                                p(style="color: #FFFFFF; font-size: 20px").mb-0 Antecedentes
+                    #collapseThree.collapse(aria-labelledby='headingThree', data-parent='#accordionExample', style="background-color: #E0F5FF")
+                        .card-body
 
-                    .card-body
+                            .row
 
-                        .card-text
+                                p Es la contextualización que servirá para que el lector tenga conocimiento de qué se trata el informe respectivo, ¿qué tipo de hechos se desea esclarecer?, ¿desde cuándo se presenta?, ¿cómo afectan la realidad?, etc.
 
-                            p La correcta estructura de un informe técnico es fundamental para que el mismo pueda ser comprendido con claridad; de esta manera se garantiza una redacción clara y objetiva, es así como se debe utilizar frases concretas y concisas, sin perder de vista los objetivos del trabajo. La extensión total del informe debería estar entre 3 y 8 páginas, incluyendo figuras y referencias.
+                .card
+                    #headingFour.card-header(style="background-color: #68C3EF")
+                        p(style="margin-top: 1rem")
+                            button.btn.btn-link.collapsed(type='button', data-toggle='collapse', data-target='#collapseFour', aria-expanded='false', aria-controls='collapseThree')
+                                p(style="color: #FFFFFF; font-size: 20px").mb-0 Período que abarca y dónde se realizó
+                    #collapseFour.collapse(aria-labelledby='headingThree', data-parent='#accordionExample', style="background-color: #E0F5FF")
+                        .card-body
 
-                            br
+                            .row
+                                
+                                p Todo informe técnico debe explicar brevemente el período que abarca el tema que se presenta en dicho informe, seguido del lugar en donde se realizó la investigación efectuada.
 
-                            p La estructura debe estar compuesta como mínimo de las siguientes partes (Perdomo, 2011):
+                .card
+                    #headingFive.card-header(style="background-color: #68C3EF")
+                        p(style="margin-top: 1rem")
+                            button.btn.btn-link.collapsed(type='button', data-toggle='collapse', data-target='#collapseFive', aria-expanded='false', aria-controls='collapseThree')
+                                p(style="color: #FFFFFF; font-size: 20px").mb-0 Objetivo general
+                    #collapseFive.collapse(aria-labelledby='headingThree', data-parent='#accordionExample', style="background-color: #E0F5FF")
+                        .card-body
+
+                            .row
+                                
+                                p Los objetivos son los propósitos del trabajo, expresan el fin que pretende alcanzarse y, por lo tanto, todo el trabajo se orientará a lograr ese objetivo. El objetivo general es la gran pauta para seguir dentro del proceso que se quiere investigar, estudiar, demostrar o conocer. Los pasos que nos llevan a su logro son los objetivos específicos.
+
+                .card
+                    #headingSix.card-header(style="background-color: #68C3EF")
+                        p(style="margin-top: 1rem")
+                            button.btn.btn-link.collapsed(type='button', data-toggle='collapse', data-target='#collapseSix', aria-expanded='false', aria-controls='collapseThree')
+                                p(style="color: #FFFFFF; font-size: 20px").mb-0 Objetivo Específicos
+                    #collapseSix.collapse(aria-labelledby='headingThree', data-parent='#accordionExample', style="background-color: #E0F5FF")
+                        .card-body
+
+                            p Expresan cómo se pretende alcanzar el objetivo general, en otras palabras, son los pasos que conducen al logro final. Además, muestran lo operacional y dicen cómo se proporciona cada uno por aparte como un porcentaje del objetivo general hasta completarlo en un cien por ciento. Para la redacción de los objetivos se tomará en cuenta lo siguiente:
 
                             br
 
                             ul
+                                li Estar dirigidos a los elementos básicos del problema en estudio
+                                li Ser medibles y observables
+                                li Ser claros y precisos
+                                li Expresarse por medio de un verbo en infinitivo (ej. Implementar).
 
-                                li
-                                    p Presentación.
-
-                                li
-                                    p Introducción.
-
-                                li
-                                    p Desarrollo/Hallazgos/Resultados.
-                                
-                                li
-                                    p Conclusiones y recomendaciones.    
-
-                                li
-                                    p Anexos
-
-                .col-md-4(style="border-top-right-radius: 6px; border-bottom-right-radius: 6px; background-image: url('assets/images/pages/img6.jpg'); background-size: contain; background-size: cover; background-repeat: no-repeat")
-
-    br
-
-    .col-12
-
-        #accordionExample.accordion
-
-            .card
-                #headingOne.card-header(style="background-color: #68C3EF")
-                    p(style="margin-top: 1rem")
-                        button.btn.btn-link(type='button', data-toggle='collapse', data-target='#collapseOne', aria-expanded='true', aria-controls='collapseOne')
-                            p(style="color: #FFFFFF; font-size: 20px").mb-0.text-center Presentación
-                #collapseOne.collapse.show(aria-labelledby='headingOne', data-parent='#accordionExample', style="background-color: #E0F5FF")
-                    .card-body
-                        | La presentación de un informe está constituido por la portada y el índice o tabla de contenido; a continuación, se describen los elementos básicos a considerar en la redacción de estos aspectos:
-
-                        br
-                        br
-
-                        ul
-                            li
-                                strong Portada: 
-                                |   es la primera página del informe y permite la identificación del documento, que consta del título del informe, el nombre del autor y/o autores, la fecha en la que se presenta. El título del informe proviene del objetivo general del informe técnico.
-
-                                p <br>Es el primer contacto del lector con el trabajo que se le ofrece y por ello la portada debe contener en pocas palabras la información necesaria y suficiente para dejar en claro a qué se refiere el texto e interesarlo en la lectura.
-
-                        ul
-                            li
-                                strong Índice o tabla de contenido: 
-                                |   lista los títulos principales y la página en que aparece cada uno de ellos. Enlista los subtítulos debajo de su título principal correspondiente. Lo importante de esta sección radica en que proporciona un esquema del reporte; el lector sabrá inmediatamente dónde buscar lo que le interesa.
-    
-            .card
-                #headingTwo.card-header(style="background-color: #68C3EF")
-                    p(style="margin-top: 1rem")
-                        button.btn.btn-link.collapsed(type='button', data-toggle='collapse', data-target='#collapseTwo', aria-expanded='false', aria-controls='collapseTwo')
-                            p(style="color: #FFFFFF; font-size: 20px").mb-0.text-center Introducción
-                #collapseTwo.collapse(aria-labelledby='headingTwo', data-parent='#accordionExample', style="background-color: #E0F5FF")
-                    .card-body
-                        |   En esta parte del informe se presenta brevemente una descripción de lo que se trata el informe respectivo, con el propósito de situar al lector y ofrecer un marco de referencia.
-            
-            .card
-                #headingThree.card-header(style="background-color: #68C3EF")
-                    p(style="margin-top: 1rem")
-                        button.btn.btn-link.collapsed(type='button', data-toggle='collapse', data-target='#collapseThree', aria-expanded='false', aria-controls='collapseThree')
-                            p(style="color: #FFFFFF; font-size: 20px").mb-0.text-center Antecedentes
-                #collapseThree.collapse(aria-labelledby='headingThree', data-parent='#accordionExample', style="background-color: #E0F5FF")
-                    .card-body
-                        p Es la contextualización que servirá para que el lector tenga conocimiento de qué se trata el informe respectivo, ¿Qué tipo de hechos se desea esclarecer?, ¿Desde cuándo se presenta?, ¿Cómo afectan la realidad?, etc.
-
-                        br
-
-                        p En las organizaciones hay diferentes activos que son muy valiosos para la realización de su actividad, tener diferenciación con la competencia y ser sostenibles en el tiempo, uno que en la actualidad tiene un valor muy alto, es la información, ya que en ella puede estar detallado las estrategias de venta, la programación de una jornada nocturna de trabajo, el pedido de un cliente especial, las condiciones de una negociación, o cualquier otra información que significa el cumplimiento de la promesa de valor.
-
-            .card
-                #headingFour.card-header(style="background-color: #68C3EF")
-                    p(style="margin-top: 1rem")
-                        button.btn.btn-link.collapsed(type='button', data-toggle='collapse', data-target='#collapseFour', aria-expanded='false', aria-controls='collapseThree')
-                            p(style="color: #FFFFFF; font-size: 20px").mb-0.text-center Período que abarca y dónde se realizó
-                #collapseFour.collapse(aria-labelledby='headingThree', data-parent='#accordionExample', style="background-color: #E0F5FF")
-                    .card-body
-                        |   Todo informe técnico debe explicar brevemente el período que abarca el tema que se presenta en dicho informe, seguido del lugar en donde se realizó la investigación efectuada.
-
-            .card
-                #headingFive.card-header(style="background-color: #68C3EF")
-                    p(style="margin-top: 1rem")
-                        button.btn.btn-link.collapsed(type='button', data-toggle='collapse', data-target='#collapseFive', aria-expanded='false', aria-controls='collapseThree')
-                            p(style="color: #FFFFFF; font-size: 20px").mb-0.text-center Objetivo General
-                #collapseFive.collapse(aria-labelledby='headingThree', data-parent='#accordionExample', style="background-color: #E0F5FF")
-                    .card-body
-                        |   Los objetivos son los propósitos del trabajo, expresan el fin que pretende alcanzarse y por lo tanto todo el trabajo se orientará a lograr ese objetivo. El objetivo general es la gran pauta para seguir dentro del proceso que se quiere investigar, estudiar, demostrar o conocer. Los pasos que nos llevan a su logro son los objetivos específicos.
-
-            .card
-                #headingSix.card-header(style="background-color: #68C3EF")
-                    p(style="margin-top: 1rem")
-                        button.btn.btn-link.collapsed(type='button', data-toggle='collapse', data-target='#collapseSix', aria-expanded='false', aria-controls='collapseThree')
-                            p(style="color: #FFFFFF; font-size: 20px").mb-0.text-center Objetivo Específicos
-                #collapseSix.collapse(aria-labelledby='headingThree', data-parent='#accordionExample', style="background-color: #E0F5FF")
-                    .card-body
-                        |   Expresan cómo se pretende alcanzar el objetivo general, en otras palabras, son los pasos que conducen al logro final. Además, muestra lo operacional y dice cómo se proporciona cada uno por aparte, un porcentaje del objetivo general, hasta completarlo en un cien por ciento. Para la redacción de los objetivos se tomará en cuenta lo siguiente:
-
-                        br
-                        br
-
-                        ul
-                            li Estar dirigidos a los elementos básicos del problema en estudio.
-                            li Ser medibles y observables.
-                            li Ser claros y precisos.
-                            li Expresarse por medio de un verbo en infinitivo. (ej. Implementar)
-
-                        p Se recomienda que el informe tenga como máximo tres objetivos específicos para lograr alcanzar el objetivo general, de lo contrario estos objetivos tenderán a confundirse con metas.
+                            p Se recomienda que el informe tenga como máximo tres objetivos específicos para lograr alcanzar el objetivo general, de lo contrario, estos objetivos tenderán a confundirse con metas.
