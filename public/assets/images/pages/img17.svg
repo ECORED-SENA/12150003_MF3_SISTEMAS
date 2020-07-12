@@ -24,11 +24,11 @@
     <path id="Trazado_1827" data-name="Trazado 1827" d="M901.48,1571.813c1.968-.984,3.578.011,3.578,2.211v8.4c0,2.2-1.61,3.2-3.578,2.211l-9.245-4.622c-1.967-.984-1.967-2.594,0-3.578Z" fill="#71d9e6"/>
     <rect id="Rectángulo_2805" data-name="Rectángulo 2805" width="103.275" height="46.8" rx="4" transform="translate(712.582 1363.242)" fill="#ffd553"/>
     <rect id="Rectángulo_2806" data-name="Rectángulo 2806" width="152.2" height="46.8" rx="4" transform="translate(851.358 1363.242)" fill="#ffd553"/>
-    <text id="Enterno" transform="translate(764.219 1392.038)" fill="#051a30" font-size="18" font-family="Montserrat-Regular, Montserrat"><tspan x="-36.216" y="0">Enterno</tspan></text>
-    <text id="EMPRESA" transform="translate(643.319 1542.717)" fill="#4384cd" font-size="18" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">EMPRESA</tspan></text>
+    <text id="Entorno" transform="translate(764.219 1392.038)" fill="#051a30" font-size="18" font-family="Montserrat-Regular, Montserrat"><tspan x="-36.486" y="0">Entorno</tspan></text>
+    <text id="Empresa" transform="translate(643.319 1542.717)" fill="#4384cd" font-size="18" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">Empresa</tspan></text>
     <text id="Clientes" transform="translate(322.866 1583.54)" fill="#4384cd" font-size="18" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">Clientes</tspan></text>
-    <text id="Proveedores" transform="translate(441.974 1930.339)" fill="#4384cd" font-size="18" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">Proveedores</tspan></text>
-    <text id="Clientes-2" data-name="Clientes" transform="translate(1045.603 1732.941)" fill="#4384cd" font-size="18" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">Clientes</tspan></text>
+    <text id="Proveedores" transform="translate(454.974 1930.339)" fill="#4384cd" font-size="18" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">Proveedores</tspan></text>
+    <text id="Clientes-2" data-name="Clientes" transform="translate(1046.603 1730.941)" fill="#4384cd" font-size="18" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">Clientes</tspan></text>
     <text id="Información" transform="translate(823.833 1483.796)" font-size="16" font-family="Montserrat-Regular, Montserrat"><tspan x="-48.952" y="0">Información</tspan></text>
     <text id="Requerimientos" transform="translate(509.124 1530.824)" font-size="16" font-family="Montserrat-Regular, Montserrat"><tspan x="-64.56" y="0">Requerimientos</tspan></text>
     <text id="Bienes_y_servicios" data-name="Bienes y
